@@ -1,0 +1,6 @@
+# Core dependency for the bot
+python-telegram-bot==13.15
+
+# Optional utilities (only if you plan to extend features later)
+requests==2.31.0   # For calling APIs (e.g., real market data)
+python-dotenv==1.0.0  # For managing secrets via .env file
